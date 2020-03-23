@@ -1,0 +1,6 @@
+rootProject.name = 'SnapIdea'
+
+include ':SnapKit', ':SnapBuilder'
+
+project(':SnapKit').projectDir = new File(settingsDir, '../SnapKit')
+project(':SnapBuilder').projectDir = new File(settingsDir, '../SnapBuilder')

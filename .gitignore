@@ -1,0 +1,9 @@
+/bin/
+/target/
+.DS_Store
+Project.settings
+/build/
+/.gradle/
+/gradle/
+gradlew
+gradle.bat

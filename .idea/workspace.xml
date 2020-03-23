@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a911185-d6f4-4f18-8d5b-dbed9e383137" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SnapBuilder/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnapBuilder/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnapKit/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnapKit/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SnapBuilder/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../SnapBuilder/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SnapBuilder/SnapBuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SnapBuilder/SnapBuilder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SnapKit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../SnapKit/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SnapKit/SnapKit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SnapKit/SnapKit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SnapKit/src/snap/swing/AWTEnv.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SnapKit/src/snap/swing/AWTEnv.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../SnapBuilder">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../SnapKit">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../SnapKit">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../SnapBuilder">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapBuilder" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapBuilder" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapBuilder" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapIdea" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapIdea" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapIdea" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapIdea" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapIdea" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapIdea" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="intellij" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapKit" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapKit" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapKit" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapKit" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapKit" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapKit" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SnapKit" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SnapKit" />
+  </component>
+  <component name="ProjectId" id="1ZPTj5cRhe92UMb9kQSg9Sbqra1" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SnapBuilder" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.25875" />
+    <property name="project.structure.side.proportion" value="0.30383092" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../SnapBuilder" />
+      <recent name="$PROJECT_DIR$/../SnapKit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SnapIdea [runIde]">
+    <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SnapBuilder [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../SnapBuilder" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SnapIdea [runIde]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SnapKit [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../SnapKit" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SnapKit" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../SnapKit" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Plugin" />
+      <item itemvalue="Gradle.SnapKit" />
+      <item itemvalue="Gradle.SnapIdea [runIde]" />
+      <item itemvalue="Gradle.SnapKit [build]" />
+      <item itemvalue="Gradle.SnapBuilder [run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SnapIdea [runIde]" />
+        <item itemvalue="Gradle.SnapBuilder [run]" />
+        <item itemvalue="Gradle.SnapKit [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a911185-d6f4-4f18-8d5b-dbed9e383137" name="Default Changelist" comment="" />
+      <created>1584739860994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584739860994</updated>
+      <workItem from="1584739871100" duration="7789000" />
+      <workItem from="1584822211593" duration="95000" />
+      <workItem from="1584822364022" duration="7898000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="485" y="394" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584824610100">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state x="485" y="394" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584824610100" />
+    <state x="834" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1584820193250">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state x="834" y="443" key="#com.intellij.ide.util.MemberChooser/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584820193250" />
+    <state width="1993" height="408" key="GridCell.Tab.0.bottom" timestamp="1584838223012">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state width="1993" height="408" key="GridCell.Tab.0.bottom/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584838223012" />
+    <state width="1993" height="333" key="GridCell.Tab.0.bottom/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831446587" />
+    <state width="1993" height="408" key="GridCell.Tab.0.center" timestamp="1584838223011">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state width="1993" height="408" key="GridCell.Tab.0.center/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584838223011" />
+    <state width="1993" height="333" key="GridCell.Tab.0.center/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831446586" />
+    <state width="1993" height="408" key="GridCell.Tab.0.left" timestamp="1584838223011">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state width="1993" height="408" key="GridCell.Tab.0.left/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584838223011" />
+    <state width="1993" height="333" key="GridCell.Tab.0.left/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831446586" />
+    <state width="1993" height="408" key="GridCell.Tab.0.right" timestamp="1584838223011">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state width="1993" height="408" key="GridCell.Tab.0.right/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584838223011" />
+    <state width="1993" height="333" key="GridCell.Tab.0.right/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831446587" />
+    <state width="1993" height="333" key="GridCell.Tab.1.bottom" timestamp="1584838223006">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state width="1993" height="333" key="GridCell.Tab.1.bottom/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584838223006" />
+    <state width="1993" height="333" key="GridCell.Tab.1.bottom/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831446483" />
+    <state width="1993" height="333" key="GridCell.Tab.1.center" timestamp="1584838223006">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state width="1993" height="333" key="GridCell.Tab.1.center/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584838223006" />
+    <state width="1993" height="333" key="GridCell.Tab.1.center/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831446483" />
+    <state width="1993" height="333" key="GridCell.Tab.1.left" timestamp="1584838223005">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state width="1993" height="333" key="GridCell.Tab.1.left/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584838223005" />
+    <state width="1993" height="333" key="GridCell.Tab.1.left/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831446483" />
+    <state width="1993" height="333" key="GridCell.Tab.1.right" timestamp="1584838223006">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state width="1993" height="333" key="GridCell.Tab.1.right/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584838223006" />
+    <state width="1993" height="333" key="GridCell.Tab.1.right/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831446483" />
+    <state x="633" y="434" key="NewModule_or_Project.wizard" timestamp="1584821664224">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state x="633" y="434" key="NewModule_or_Project.wizard/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584821664224" />
+    <state x="508" y="313" width="1126" height="834" key="SettingsEditor" timestamp="1584822752951">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state x="508" y="313" width="1126" height="834" key="SettingsEditor/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584822752951" />
+    <state x="676" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1584822363956">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state x="676" y="565" key="com.intellij.ide.util.TipDialog/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584822363956" />
+    <state x="676" y="499" width="689" height="462" key="find.popup" timestamp="1584837361647">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state x="676" y="499" width="689" height="462" key="find.popup/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584837361646" />
+    <state x="684" y="347" width="670" height="676" key="search.everywhere.popup" timestamp="1584837340785">
+      <screen x="0" y="23" width="2481" height="1417" />
+    </state>
+    <state x="684" y="347" width="670" height="676" key="search.everywhere.popup/0.23.2481.1417/-1792.343.1792.1097@0.23.2481.1417" timestamp="1584837340785" />
+    <state x="685" y="347" width="670" height="676" key="search.everywhere.popup/0.23.2484.1417/-1792.343.1792.1097@0.23.2484.1417" timestamp="1584831382628" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../SnapKit/src/snap/swing/AWTEnv.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../SnapKit/src/snap/swing/AWTEnv.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

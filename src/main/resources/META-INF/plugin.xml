@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>com.reportmill.SnapIdea</id>
+    <name>SnapBuilder</name>
+    <vendor email="jeff@reportmill.com" url="http://reportmill.com">ReportMill Software, Inc.</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType name="Snap UI File" extensions="snp" fieldName="INSTANCE" language="SNAP" implementationClass="snapidea.SnapFileType"/>
+        <fileEditorProvider implementation="snapidea.SnapFileEditorProvider"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+    <project-components>
+        <component>
+            <implementation-class>snapidea.SnapBuilder</implementation-class>
+        </component>
+    </project-components>
+</idea-plugin>
