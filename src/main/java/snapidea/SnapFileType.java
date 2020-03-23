@@ -9,6 +9,8 @@ import javax.swing.*;
 
 public class SnapFileType extends LanguageFileType {
 
+    public static final SnapFileType INSTANCE = new SnapFileType();
+
     protected SnapFileType()
     {
         super(Snap.INSTANCE);
