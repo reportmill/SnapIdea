@@ -20,7 +20,7 @@ public class SnapFileEditorProvider implements FileEditorProvider {
     @Override
     public FileEditor createEditor(@NotNull Project project, @NotNull VirtualFile file)
     {
-        return new SnapFileEditorImpl(project, file);
+        return new SnapFileEditor(project, file);
     }
 
     @NotNull

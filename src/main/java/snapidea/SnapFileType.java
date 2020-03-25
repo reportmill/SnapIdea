@@ -27,7 +27,7 @@ public class SnapFileType extends LanguageFileType {
     @Override
     public String getDescription()
     {
-        return "S";
+        return "SnapKit UI File";
     }
 
     @NotNull

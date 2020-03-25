@@ -18,14 +18,14 @@ import snap.web.WebURL;
 import snapbuild.app.*;
 
 /**
- *
+ * An Idea FileEditor implementation for SnapBuilder.
  */
-public class SnapFileEditorImpl extends UserDataHolderBase implements FileEditor {
+public class SnapFileEditor extends UserDataHolderBase implements FileEditor {
 
     private static final String NAME = "Snap File Editor";
     private final VirtualFile _file;
 
-    SnapFileEditorImpl(@NotNull Project project, @NotNull VirtualFile file)
+    public SnapFileEditor(Project project, VirtualFile file)
     {
         _file = file;
     }
@@ -59,13 +59,13 @@ public class SnapFileEditorImpl extends UserDataHolderBase implements FileEditor
 
     @NotNull
     @Override
-    public FileEditorState getState(@NotNull FileEditorStateLevel level)
+    public FileEditorState getState(FileEditorStateLevel level)
     {
         return new TextEditorState();
     }
 
     @Override
-    public void setState(@NotNull FileEditorState state)  { }
+    public void setState(FileEditorState state)  { }
 
     @Override
     public boolean isModified()  { return false; }
@@ -80,10 +80,10 @@ public class SnapFileEditorImpl extends UserDataHolderBase implements FileEditor
     public void deselectNotify()  { }
 
     @Override
-    public void addPropertyChangeListener(@NotNull PropertyChangeListener listener)  { }
+    public void addPropertyChangeListener(PropertyChangeListener listener)  { }
 
     @Override
-    public void removePropertyChangeListener(@NotNull PropertyChangeListener listener)  { }
+    public void removePropertyChangeListener(PropertyChangeListener listener)  { }
 
     @Override
     public BackgroundEditorHighlighter getBackgroundHighlighter()  { return null; }
