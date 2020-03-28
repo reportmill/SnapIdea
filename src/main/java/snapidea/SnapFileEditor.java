@@ -1,10 +1,8 @@
 package snapidea;
 import com.intellij.codeHighlighting.BackgroundEditorHighlighter;
 import com.intellij.ide.structureView.StructureViewBuilder;
-import com.intellij.openapi.fileEditor.FileEditor;
-import com.intellij.openapi.fileEditor.FileEditorLocation;
-import com.intellij.openapi.fileEditor.FileEditorState;
-import com.intellij.openapi.fileEditor.FileEditorStateLevel;
+import com.intellij.openapi.editor.Document;
+import com.intellij.openapi.fileEditor.*;
 import com.intellij.openapi.fileEditor.impl.text.TextEditorState;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.UserDataHolderBase;
@@ -22,8 +20,20 @@ import snapbuild.app.*;
  */
 public class SnapFileEditor extends UserDataHolderBase implements FileEditor {
 
-    private static final String NAME = "Snap File Editor";
+    // The File
     private final VirtualFile _file;
+
+    // The SnapEditorPane
+    private SnapEditorPane _epane;
+
+    // The component
+    private JComponent  _comp;
+
+    // The Document
+    private Document  _doc;
+
+    // Constants
+    private static final String NAME = "Snap File Editor";
 
     public SnapFileEditor(Project project, VirtualFile file)
     {
@@ -33,21 +43,40 @@ public class SnapFileEditor extends UserDataHolderBase implements FileEditor {
     @Nullable
     public VirtualFile getFile() { return _file; }
 
+    /**
+     * Returns a SnapBuilder EditorPane.
+     */
+    public SnapEditorPane getEditorPane()
+    {
+        if (_epane!=null) return _epane;
+
+        // Get URL
+        String url = getFile().getUrl();
+        WebURL wurl = WebURL.getURL(url);
+
+        // Create EditorPane for URL
+        _epane = new SnapEditorPane(this);
+        _epane.open(wurl);
+        return _epane;
+    }
+
     @Override
     public JComponent getComponent()
     {
-        String url = getFile().getUrl();
-        WebURL wurl = WebURL.getURL(url);
-        EditorPane epane = new EditorPane().open(wurl);
+        // If already set, just return
+        if (_comp!=null) return _comp;
+
+        // Create editor and get JComponent
+        EditorPane epane = getEditorPane();
         JComponent comp = (JComponent)epane.getNative();
         ViewUtils.setShowing(epane.getUI().getRootView(), true);
-        return comp;
+        return _comp = comp;
     }
 
     @Override
     public JComponent getPreferredFocusedComponent()
     {
-        return null;
+        return _comp;
     }
 
     @NotNull
@@ -65,13 +94,22 @@ public class SnapFileEditor extends UserDataHolderBase implements FileEditor {
     }
 
     @Override
-    public void setState(FileEditorState state)  { }
+    public void setState(FileEditorState state)
+    {
+    }
 
     @Override
-    public boolean isModified()  { return false; }
+    public boolean isModified()
+    {
+        boolean mod = getEditorPane().getEditor().getUndoer().hasUndos();
+        return mod;
+    }
 
     @Override
-    public boolean isValid()  { return _file.isValid(); }
+    public boolean isValid()
+    {
+        return _file.isValid();
+    }
 
     @Override
     public void selectNotify()  { }
@@ -98,4 +136,23 @@ public class SnapFileEditor extends UserDataHolderBase implements FileEditor {
 
     @Override
     public void dispose()  { }
+
+    /**
+     * Returns the document.
+     */
+    public Document getDoc()
+    {
+        if (_doc!=null) return _doc;
+        Document doc = FileDocumentManager.getInstance().getDocument(_file);
+        return _doc = doc;
+    }
+
+    /**
+     * Saves the document.
+     */
+    public void saveDoc()
+    {
+        Document doc = getDoc();
+        FileDocumentManager.getInstance().saveDocument(doc);
+    }
 }

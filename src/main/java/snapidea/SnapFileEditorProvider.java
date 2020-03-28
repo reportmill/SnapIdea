@@ -34,6 +34,7 @@ public class SnapFileEditorProvider implements FileEditorProvider {
     @Override
     public FileEditorPolicy getPolicy()
     {
-        return FileEditorPolicy.HIDE_DEFAULT_EDITOR;
+        //return FileEditorPolicy.HIDE_DEFAULT_EDITOR;
+        return FileEditorPolicy.PLACE_BEFORE_DEFAULT_EDITOR;
     }
 }
