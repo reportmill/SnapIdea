@@ -13,8 +13,8 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileType name="RPT" extensions="rpt" language="RPT" fieldName="INSTANCE" implementationClass="snapidea.RptFileType"/>
-        <fileType name="SNAP" extensions="snp" language="SNAP" fieldName="INSTANCE" implementationClass="snapidea.SnapFileType"/>
+        <fileType name="RPT" extensions="rpt" language="RPT" implementationClass="snapidea.RptFileType"/>
+        <fileType name="SNAP" extensions="snp" language="SNAP" implementationClass="snapidea.SnapFileType"/>
         <fileEditorProvider implementation="snapidea.RptFileEditorProvider"/>
         <fileEditorProvider implementation="snapidea.SnapFileEditorProvider"/>
     </extensions>
