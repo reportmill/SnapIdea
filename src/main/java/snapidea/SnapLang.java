@@ -1,12 +1,12 @@
 package snapidea;
 import com.intellij.lang.Language;
 
-public class Snap extends Language {
+public class SnapLang extends Language {
 
     private static final String ID = "SNAP";
-    public static final Snap INSTANCE = new Snap();
+    public static final SnapLang INSTANCE = new SnapLang();
 
-    protected Snap()
+    protected SnapLang()
     {
         super(ID);
     }

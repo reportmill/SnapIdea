@@ -5,24 +5,24 @@ import com.intellij.openapi.fileEditor.FileEditorProvider;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.VirtualFile;
 import org.jetbrains.annotations.NotNull;
+import reportmill.app.Welcome;
 
-public class SnapFileEditorProvider implements FileEditorProvider {
+public class RptFileEditorProvider implements FileEditorProvider {
 
-    private static final String EDITOR_TYPE_ID = "snap";
+    private static final String EDITOR_TYPE_ID = "rpt";
 
     @Override
     public boolean accept(@NotNull Project project, @NotNull VirtualFile file)
     {
-        return file.getExtension().equals("snp");
+        return file.getExtension().equals("rpt");
     }
 
     @NotNull
     @Override
     public FileEditor createEditor(@NotNull Project project, @NotNull VirtualFile file)
     {
-        if (file.getExtension().equalsIgnoreCase("rpt"))
-            return new RptFileEditor(project, file);
-        return new SnapFileEditor(project, file);
+        Welcome.getShared();
+        return new RptFileEditor(project, file);
     }
 
     @NotNull

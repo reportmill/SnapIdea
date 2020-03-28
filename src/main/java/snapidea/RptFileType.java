@@ -5,34 +5,34 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import javax.swing.*;
 
-public class SnapFileType extends LanguageFileType {
+public class RptFileType extends LanguageFileType {
 
-    public static final SnapFileType INSTANCE = new SnapFileType();
+    public static final RptFileType INSTANCE = new RptFileType();
 
-    protected SnapFileType()
+    protected RptFileType()
     {
-        super(SnapLang.INSTANCE);
+        super(RptLang.INSTANCE);
     }
 
     @NotNull
     @Override
     public String getName()
     {
-        return "SNAP";
+        return "RPT";
     }
 
     @NotNull
     @Override
     public String getDescription()
     {
-        return "SnapKit UI File";
+        return "ReportMill template file";
     }
 
     @NotNull
     @Override
     public String getDefaultExtension()
     {
-        return "snp";
+        return "rpt";
     }
 
     @Nullable
