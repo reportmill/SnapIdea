@@ -146,6 +146,11 @@ public class RptFileEditor extends UserDataHolderBase implements FileEditor {
         return _doc = doc;
     }
 
+    public String getUrl()
+    {
+        return getFile().getUrl();
+    }
+
     /**
      * Saves the document.
      */

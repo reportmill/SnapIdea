@@ -4,8 +4,7 @@
     <vendor email="jeff@reportmill.com" url="http://reportmill.com">ReportMill Software, Inc.</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    A plugin to edit ReportMill rpt and Snap UI snp files.<br>
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -20,11 +19,20 @@
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
+        <action id="snapidea.RptNewFileAction" class="snapidea.RptNewFileAction"
+                text="ReportMill template file" description="Create ReportMill template file">
+            <add-to-group group-id="NewGroup" anchor="first" />
+        </action>
+        <action id="snapidea.SnapNewFileAction" class="snapidea.SnapNewFileAction"
+                text="SnapKit UI file" description="Create SnapKit UI file">
+            <add-to-group group-id="NewGroup" anchor="after" relative-to-action="snapidea.RptNewFileAction" />
+        </action>
     </actions>
+
     <project-components>
         <component>
             <implementation-class>snapidea.SnapFileEditor</implementation-class>
         </component>
     </project-components>
+
 </idea-plugin>

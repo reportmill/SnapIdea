@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColView Padding="4" Spacing="4" FillWidth="true">
+    <font name="Arial" size="11" />
+    <Button text="New Button" />
+</ColView>
