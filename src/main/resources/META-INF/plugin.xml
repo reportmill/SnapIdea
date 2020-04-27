@@ -30,9 +30,6 @@
     </actions>
 
     <project-components>
-        <component>
-            <implementation-class>snapidea.SnapFileEditor</implementation-class>
-        </component>
     </project-components>
 
 </idea-plugin>
