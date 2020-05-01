@@ -51,8 +51,9 @@ public class SnapFileEditor extends UserDataHolderBase implements FileEditor {
         if (_epane!=null) return _epane;
 
         // Get URL
-        String url = getFile().getUrl();
-        WebURL wurl = WebURL.getURL(url);
+        String path = getFile().getPath();
+        if (!path.startsWith("/")) path = '/' + path;
+        WebURL wurl = WebURL.getURL(path);
 
         // Create EditorPane for URL
         _epane = new SnapEditorPane(this);
