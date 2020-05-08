@@ -1,5 +1,6 @@
 package snapidea;
 import snap.web.WebURL;
+import snapbuild.app.Editor;
 import snapbuild.app.EditorPane;
 
 /**
@@ -16,9 +17,12 @@ public class SnapEditorPane extends EditorPane {
     public SnapEditorPane(SnapFileEditor aFE)
     {
         _ideaFileEditor = aFE;
+    }
 
-        SnapEditor editor = new SnapEditor(aFE);
-        setEditor(editor);
+    @Override
+    protected Editor createEditor()
+    {
+        return new SnapEditor(_ideaFileEditor);
     }
 
     @Override
