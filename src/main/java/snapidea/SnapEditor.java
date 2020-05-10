@@ -1,4 +1,5 @@
 package snapidea;
+import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.editor.Document;
 import snap.util.XMLElement;
 import snapbuild.app.Editor;
@@ -20,6 +21,14 @@ public class SnapEditor extends Editor {
      * The real save method.
      */
     public void save()
+    {
+        ApplicationManager.getApplication().runWriteAction(() -> saveImpl());
+    }
+
+    /**
+     * The real save method.
+     */
+    public void saveImpl()
     {
         // Get source file and save (update file might get called from here)
         //updateFile(); WebFile file = getSourceFile(true); file.save();

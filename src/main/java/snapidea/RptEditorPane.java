@@ -1,4 +1,5 @@
 package snapidea;
+import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.editor.Document;
 import reportmill.app.RMEditorPane;
 import snap.util.XMLElement;
@@ -36,6 +37,14 @@ public class RptEditorPane extends RMEditorPane {
      * The real save method.
      */
     protected void saveImpl()
+    {
+        ApplicationManager.getApplication().runWriteAction(() -> saveImplImpl());
+    }
+
+    /**
+     * The real save method.
+     */
+    protected void saveImplImpl()
     {
         XMLElement xml = getDoc().getXML();
         String text = xml.getString();

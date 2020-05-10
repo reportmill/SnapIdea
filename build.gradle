@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.reportmill'
-version '1.0.4-SNAPSHOT'
+version '1.0.5-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
@@ -30,6 +30,7 @@ patchPluginXml {
       First version.<br>
       Fixed open file on windows.
       Fixed custom editor support (again).
+      Fixed write outside of write action bug.
       """
 }
 
