@@ -14,7 +14,8 @@ public class RptFileEditorProvider implements FileEditorProvider {
     @Override
     public boolean accept(@NotNull Project project, @NotNull VirtualFile file)
     {
-        return file.getExtension().equals("rpt");
+        String ext = file!=null ? file.getExtension() : null;
+        return ext!=null && ext.equals("rpt");
     }
 
     @NotNull

@@ -13,7 +13,8 @@ public class SnapFileEditorProvider implements FileEditorProvider {
     @Override
     public boolean accept(@NotNull Project project, @NotNull VirtualFile file)
     {
-        return file.getExtension().equals("snp");
+        String ext = file!=null ? file.getExtension() : null;
+        return ext!=null && ext.equals("snp");
     }
 
     @NotNull
